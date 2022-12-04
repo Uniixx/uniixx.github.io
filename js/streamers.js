@@ -14,7 +14,8 @@ const streamers = [
     "papapous",
     "shortcast",
     "thepolicefan",
-    "sar0ck"
+    "sar0ck",
+    "dead_killer_qc"
 ];
 
 let streamerCarousel = $('.owl-carousel-streamer').owlCarousel({

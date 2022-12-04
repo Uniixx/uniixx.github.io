@@ -37,7 +37,10 @@ exports.create = (req, res) => {
   };
 
 exports.findAll = (req, res) => {
-  Annonces.findAll()
+  Annonces.findAll({
+    limit: 3,
+    order: [ [ 'createdAt', 'ASC' ]]
+  })
     .then((data) => {
       res.send(data);
     })

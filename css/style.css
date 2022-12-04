@@ -2559,7 +2559,7 @@ img{
 	margin-right:1px;
 	font-size:16px;
 	background:none;
-	color:#848484;
+	color:white;
 	font-weight:700;
 	line-height:24px;
 	cursor:pointer;
@@ -2574,6 +2574,10 @@ img{
 .matches-section .matches-tabs .tab-btns .tab-btn span{
 	position:relative;
 	z-index:1;	
+}
+
+.matches-section p {
+	color: white;
 }
 
 .matches-section .matches-tabs .tab-btns .tab-btn:before{
